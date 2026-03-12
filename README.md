@@ -1,4 +1,4 @@
-# ML4SCI HEPSIM GSoC 2026 — Quark vs Gluon Jet Analysis
+# ML4SCI HEPSIM GSoC 2026: Quark vs Gluon Jet Analysis
 
 **Candidate:** Vennela Varshini Anasoori
 
@@ -23,7 +23,7 @@ A single notebook covering all steps end-to-end.
 
 * Loaded dataset and handled zero-padded constituents
 * Counted real constituents for quark and gluon jets
-* Plotted multiplicity distributions — gluons have ~9/4× more particles (Casimir factor C_A/C_F)
+* Plotted multiplicity distributions, gluons have ~9/4× more particles (Casimir factor C_A/C_F)
 * Plotted leading constituent pT, η, φ distributions
 
 **Part B: Jet Observables**
@@ -45,8 +45,8 @@ A single notebook covering all steps end-to-end.
 * Built Gradient Boosted Trees with 5 features: multiplicity, jet mass, width, pT dispersion, leading energy
 * Achieved **AUC ≈ 0.80** on test set
 * Plotted ROC curve, confusion matrix, and selected working point via max F1-score
-* Ranked feature importance — multiplicity dominates
-* Compared rest-frame vs lab-frame — scalar features perform similarly; boost is more useful for constituent-level models
+* Ranked feature importance, multiplicity dominates
+* Compared rest-frame vs lab-frame, scalar features perform similarly; boost is more useful for constituent-level models
 
 
 ## Key Observations
@@ -65,7 +65,7 @@ A single notebook covering all steps end-to-end.
 
 ## Dataset
 
-**Pythia 8 Quark and Gluon Jets** — Komiske, Metodiev, Thaler (2019)
+**Pythia 8 Quark and Gluon Jets** : Komiske, Metodiev, Thaler (2019)
 [Download here](https://zenodo.org/records/3164691)
 Place `QG_jets_0.npz` in the notebook directory before running.
 *(Not included in repo due to GitHub file size limit.)*
